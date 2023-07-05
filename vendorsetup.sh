@@ -67,7 +67,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
  export OF_USE_GREEN_LED=1
 
  # Use magisk 25.2 for the magisk addon
- export FOX_USE_SPECIFIC_MAGISK_ZIP=$(DEVICE_PATH)addon/Magisk-v25.2.zip"
+ export FOX_USE_SPECIFIC_MAGISK_ZIP=$PWD/device_xiaomi_fog-TWRP-2/addon/Magisk-v25.2.zip"
 
  # Security (Disables MTP&ADB during password prompt)
  export FOX_ADVANCED_SECURITY=1
