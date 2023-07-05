@@ -118,6 +118,7 @@ TARGET_USES_MKE2FS := true
 TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_APEX := true
 TW_FRAMERATE := 60
+TW_DEVICE_VERSION := Build by kevinchinedu97
 
 #Properties
 TW_OVERRIDE_SYSTEM_PROPS := \
