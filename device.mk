@@ -124,7 +124,6 @@ TW_DEVICE_VERSION := Build by kevinchinedu97
 TW_OVERRIDE_SYSTEM_PROPS := \
     "ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
 
-
 # Vibrator
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 
